@@ -1,7 +1,6 @@
 # Building Microservices
 
 ## 1. Microservices
-<br>
 
 ### What Are Microservices?
 
@@ -14,8 +13,6 @@
 - need to be able to change independently of each other
 - deployed by themselves without requiring consumers to change
 - golden rule: **can you make a change to a service and deploy it by itself without changing anything else?**
-
-<br>
 
 ### Key Benefits
 
@@ -49,15 +46,11 @@
 - the barriers to rewriting or removing services entirely are very low
 - teams using microservices are comfortable with completely rewriting services when required, and killing a service when it is no longer needed
 
-<br>
-
 ### What About Service-Oriented Architecture?
 - SOA is a design approach where multiple services collaborate to provide some end set of capabilities
 - despite many efforts there is a lack of good consensus of how to do SOA well
 - many of the problems with SOA are actually problems with things like communication protocols (ex. SOAP), vendor middleware, a lack of guidance about service granularity, or picking where to split a system
 - microservices are a specific approach for SOA in the same way Scrum is a specific Agile approach
-
-<br>
 
 ### Other Decompositional Techniques
 
@@ -70,8 +63,6 @@
 - technically it should be possible to create well-factored independent modules within a single monolithic process
     - in practice we rarely see this happen
 - become tightly coupled with rest of the code, surrending their key benefits
-
-<br>
 
 ### No Silver Bullet
 - microservices are no silver bullet
