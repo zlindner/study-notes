@@ -56,7 +56,7 @@
 
 #### Shared Libraries
 - provide reuse between teams and services
-- lose true technology heterogeneity: typicall has to be in the same language/platform
+- lose true technology heterogeneity: typically has to be in the same language/platform
 - scaling parts of your system independently is lost
 
 #### Modules
